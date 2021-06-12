@@ -1,4 +1,4 @@
-# blog
+# Pixelate
 
 A new Flutter project.
 
