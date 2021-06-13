@@ -8,9 +8,6 @@ import 'core/viewmodels/home_model.dart';
 GetIt locator = GetIt.instance;
 
 void setupLocator() {
-  locator.registerLazySingleton(() => Api());
-  locator.registerLazySingleton(() => AuthenticationService());
-
   locator.registerFactory(() => HomeModel());
   locator.registerFactory(() => EditModel());
 }
